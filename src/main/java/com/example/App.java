@@ -5,7 +5,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import javax.annotation.PostConstruct;
-import java.io.*;
 
 @SpringBootApplication
 public class App {
@@ -20,7 +19,6 @@ public class App {
     {
         Logger log = LoggerFactory.getLogger(App.class);
         log.info("Java app started");
-        system.out.println("Hello...");
     }
 
     public String getStatus() {
